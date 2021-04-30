@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 
-function SignInButton() {
-  return <button>Sign In With Googles</button>;
-}
+// function SignInButton(props) {
+//   return <button>Sign In With Googles {props.clicked}</button>;
+// }
 
-export default SignInButton;
+// export default SignInButton;

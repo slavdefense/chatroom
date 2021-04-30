@@ -1,5 +1,16 @@
+body {
+  background-color: #0b0c10;
+  border: 2px solid black;
+  padding: 40px;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1f2833;
+  height: 800px;
 }
 
 .App-logo {
@@ -35,4 +46,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+Header {
+  display: flex;
 }

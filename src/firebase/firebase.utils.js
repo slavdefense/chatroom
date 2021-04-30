@@ -68,7 +68,7 @@ function ChatRoom() {
           value={formValue}
           onChange={(e) => setFormValue(e.target.value)}
         />
-        <button type="submit"> </button>
+        <button type="submit">Enter </button>
       </form>
     </>
   );
@@ -78,10 +78,10 @@ function ChatMessage(props) {
   const { text, uid, photoURL } = props.message;
   const messageClass = uid === auth.currentUser.uid ? "sent" : "received";
   return (
-    <>
+    <div className="messageBox">
       <img src={photoURL} />
       <p>{text}</p>
-    </>
+    </div>
   );
 }
 
